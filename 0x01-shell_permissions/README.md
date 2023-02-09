@@ -1,1 +1,1 @@
-chown --> for changing file's user owner
+su user_name ---> to switch the currunt user 
