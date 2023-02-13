@@ -1,0 +1,2 @@
+#!/bin/bush
+tail -n 1 iacta >> iacta
