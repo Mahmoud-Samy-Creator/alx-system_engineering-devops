@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# A script to display the directory content in a list format
+
+for file in `ls`;
+do
+    echo "${file#*-}"
+done
