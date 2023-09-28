@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Ascript to display hour and min
+
+hour=0
+min=1
+
+while [ $hour -le 12 ]
+do
+    min=0
+    echo "Hour: $hour"
+
+    while [ $min -le 59 ]
+    do
+        echo "$min"
+        min=$((min+1))
+    done
+
+    hour=$((hour+1))
+done
