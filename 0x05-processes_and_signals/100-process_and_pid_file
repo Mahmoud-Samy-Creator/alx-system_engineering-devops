@@ -9,7 +9,7 @@
 
 function deleted
 {
-    rm -rf /var/run/myscript.pid
+    rm /var/run/myscript.pid
     exit 0
 }
 touch /var/run/myscript.pid
