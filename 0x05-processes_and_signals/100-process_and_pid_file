@@ -12,7 +12,7 @@ function deleted
     rm /var/run/myscript.pid
     exit 0
 }
-touch /var/run/myscript.pid
+
 echo $$ > /var/run/myscript.pid
 
 trap 'echo "I hate the kill command"' SIGTERM
