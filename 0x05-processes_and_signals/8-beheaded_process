@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # A Bash script that kills the process 7-highlander.
 
-pkill -f beyond
+kill "$(ps -x | pgrep -f beyond)"
