@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# A script to test ping to the host
+
+# Check if an argument was provided
+if [ -n "$1" ]; then
+    ping -c 5 "$1"
+else
+    echo "Usage: $0 {IP_ADDRESS}"
+fi
