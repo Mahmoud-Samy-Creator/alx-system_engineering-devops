@@ -1,2 +1,9 @@
 #!/usr/bin/env bash
 # A Bash script that displays all active IPv4 IPs on the machine it’s executed on.
+
+# Using hostname commnad to display all connected network
+
+# 1) hostname -i => To display the id of the host
+# 1) hostname -I => To display the ids of all hosts connected
+
+hostname -I | cut -d' ' -f1; hostname -i
