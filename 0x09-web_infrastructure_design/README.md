@@ -113,4 +113,5 @@ Requirements:
 ---
 
 ## Author
-* **Mahmoud Say** - [Mahmoud Samy](https://github.com/Mahmoud-Samy-Creator)
+* **Mahmoud Samy** - [Mahmoud Samy](https://github.com/Mahmoud-Samy-Creator)
+* **Mostafa Elmasry** - [M1 Elmasry](https://github.com/M1-Elmasry)
