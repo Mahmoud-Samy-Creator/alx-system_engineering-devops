@@ -2,4 +2,4 @@
 # COnnects to a remote server using private key
 # No need to handle passphrase
 
-ssh -i ~/.ssh/school ubunto@100.25.203.142
+ssh -i ~/.ssh/school ubunto@54.144.198.44
