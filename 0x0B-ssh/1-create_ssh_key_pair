@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# COnnects to a remote server using private key
-# No need to handle passphrase
+# Creating private key
 
-ssh -i ~/.ssh/school ubunto@100.25.203.142
+ssh-keygen -f school -b 4096 -N betty
