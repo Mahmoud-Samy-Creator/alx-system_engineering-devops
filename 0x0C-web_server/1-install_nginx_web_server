@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# A Bash script to install nginx webserver
 
 # Update the package manager to get least packages
 apt-get update
