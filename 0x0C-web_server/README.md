@@ -224,4 +224,4 @@ Requirements:
 ---
 
 ## Author
-* **Tim Assavarat** - [tassavarat](https://github.com/tassavarat)
+* **Mahmoud Samy** - [Mahmoud Samy](https://github.com/Mahmoud-Samy-Creator)
