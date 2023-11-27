@@ -1,17 +1,8 @@
 #!/usr/bin/env bash
-# A Bash script to install nginx webserver
+# Installs nginx web server 
 
-# Update the package manager to get least packages
 apt-get update
-
-# Installing nginx
 apt-get -y install nginx
-
-# Allowing the Nginx web server
 ufw allow 'Nginx HTTP'
-
-# Echo the string to be retrived using GET requist
 echo "Hello World!" > /var/www/html/index.nginx-debian.html
-
-# Restarting Nginx web server to verify changes
 service nginx restart
