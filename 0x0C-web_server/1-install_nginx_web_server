@@ -7,9 +7,6 @@ apt-get update -y
 # Installing nginx
 apt-get -y install nginx -y
 
-# Allowing the Nginx web server
-ufw allow 'Nginx HTTP'
-
 # Echo the string to be retrived using GET requist
 echo "Hello World!" > /var/www/html/index.html
 
