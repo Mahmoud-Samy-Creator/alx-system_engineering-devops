@@ -2,10 +2,10 @@
 # A Bash script to install nginx webserver
 
 # Update the package manager to get least packages
-apt-get update -y
+apt-get update
 
 # Installing nginx
-apt-get -y install nginx -y
+apt-get install -y nginx
 
 # Echo the string to be retrived using GET requist
 echo "Hello World!" > /var/www/html/index.html
