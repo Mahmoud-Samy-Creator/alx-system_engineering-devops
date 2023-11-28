@@ -8,7 +8,7 @@ apt-get update
 apt-get install -y nginx
 
 # Echo the string to be retrived using GET requist
-echo "Hello World!" > /var/www/html/index.html
+echo "Hello World!" > /var/www/html/index.nginx-debian.html
 
 # Restarting Nginx web server to verify changes
 service nginx restart
