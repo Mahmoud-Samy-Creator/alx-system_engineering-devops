@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# A script to restart apache service
+
+sudo service apache2 restart
