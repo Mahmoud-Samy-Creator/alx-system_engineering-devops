@@ -3,8 +3,8 @@
 their TODO list progress"""
 
 from sys import argv
-import requests
 import json
+import requests
 
 if __name__ == "__main__":
     id = int(argv[1])
